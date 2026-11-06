@@ -1,1 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+   *box-sizing:border-box;
+    font-fa*ily: Arial, sans-serif;
+}
 
+body{
+ *  display:flex;
+    background:#f4f6f9;
+}
+
+/* Sidebar */
+.sidebar{
+    width:220*x;
+    background*#2c3e50;
+    color:white;
+    min-*eight:100vh*
+    padding:20px;
+}
+
+.sidebar h2{*    text-align:center;
+    margin-*ottom:20px;
+}
+
+.sidebar ul{
+    li*t*style:none;
+}
+
+.sidebar ul li{
+   *padding:12px;
+   *margin:8px 0;
+    background:#3449*e;
+    border-radius:5px;
+    curs*r:pointer;
+}
+
+.sidebar*ul li:hover{
+    background:#1abc9*;
+}
+
+/* Main Content */
+.main{
+    flex:1;
+    padding:2*px;
+}
+
+.header{
+    background:whi*e;
+   *padding:15px;
+    border-radius:10*x;
+    margin-bottom:20px;
+    box*shadow:0 2px 6px rgba(0,0,0,0*1);
+}
+
+.card{
+    background:white*
+*   padding:20px;
+    margin-bottom*20px;
+    border*radius:10px;
+    box-shadow:0*2px 6px rgba(0,0,0,0*1);
+}
+
+.progress{
+    width:100%;
+*   background:#ddd;
+    border-rad*us:20px;
+    margin-top:10px;
+}
+
+.*rogress-bar{
+    width:85%;
+    he*ght:20px;
+    background:#27ae60;
+*   border-radius:20px;
+}
+
+table{
+ *  width:100%;
+    border-collapse:*ollapse;
+    margin-top:10px;
+}
+
+t*ble, th, td{
+    border:1px solid *ccc*
+}
+
+th{
+    background:#349*db;
+    color:white;
+}
+
+th, td{
+  * padding*10px;
+    text-align:center;
+}
+*
