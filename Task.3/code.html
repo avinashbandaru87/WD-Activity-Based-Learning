@@ -1,58 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Academic Dashboard</title>
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family: Arial, sans-serif;
-        }
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-        body{
-            display:flex;
-            background:#f4f6f9;
-        }
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Student Portal</h2>
+        <ul>
+            <li>Dashboard</li>
+            <li>Attendance</li>
+            <li>Results</li>
+            <li>Exams</li>
+            <li>Announcements</li>
+        </ul>
+    </div>
 
-        /* Sidebar */
-        .sidebar{
-            width:220px;
-            background:#2c3e50;
-            color:white;
-            min-height:100vh;
-            padding:20px;
-        }
+    <!-- Main Content -->
+    <div class="main">
 
-        .sidebar h2{
-            text-align:center;
-            margin-bottom:20px;
-        }
+        <div class="header">
+            <h1>Student Academic Dashboard</h1>
+            <p>Welcome Back, Student!</p>
+        </div>
 
-        .sidebar ul{
-            list-style:none;
-        }
+        <div class="card">
+            <h3>Student Details</h3>
+            <p>Name: John Doe</p>
+            <p>Roll No: 101</p>
+            <p>Department: CSE</p>
+        </div>
 
-        .sidebar ul li{
-            padding:12px;
-            margin:8px 0;
-            background:#34495e;
-            border-radius:5px;
-            cursor:pointer;
-        }
+        <div class="card">
+            <h3>Attendance</h3>
+            <p>85%</p>
+            <div class="progress">
+                <div class="progress-bar"></div>
+            </div>
+        </div>
 
-        .sidebar ul li:hover{
-            background:#1abc9c;
-        }
+        <div class="card">
+            <h3>Semester Results</h3>
+            <table>
+                <tr>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>Mathematics</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <td>Programming</td>
+                    <td>88</td>
+                </tr>
+                <tr>
+                    <td>Database</td>
+                    <td>85</td>
+                </tr>
+            </table>
+        </div>
 
-        /* Main Content */
-        .main{
-            flex:1;
-            padding:20px;
-        }
+    </div>
 
-        .header{
-            background:white;
-            padding:15px;
-            border-radius:10px;
-            margin-bottom:20px
+</body>
+</html>
